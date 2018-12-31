@@ -15,7 +15,7 @@ db.countryInfo.find()
 ```
 
 *insert
-```javascript
+```
 db.countryInfo.insert([
     {
         "name": "Israel",
