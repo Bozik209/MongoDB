@@ -1,21 +1,21 @@
 
-#step 1 craet database
+*step 1 craet database
 ```javascript
 use Universities
 ```
-#step 2 craet Collection
+*step 2 craet Collection
 ```javascript
 db.createCollection("countryInfo")
 db.createCollection("uniInfo") 
 ```
 
-#print the Collection
+*print the Collection
 ```javascript
 db.countryInfo.find()
 ```
 
-#insert
-```Markdown
+*insert
+```javascript
 db.countryInfo.insert([
     {
         "name": "Israel",
