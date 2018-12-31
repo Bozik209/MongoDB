@@ -1,21 +1,21 @@
 
 #step 1 craet database
-'''javascript
+```javascript
 use Universities
-'''
+```
 #step 2 craet Collection
-'''javascript
+```javascript
 db.createCollection("countryInfo")
 db.createCollection("uniInfo") 
-'''
+```
 
 #print the Collection
-'''javascript
+```javascript
 db.countryInfo.find()
-'''
+```
 
 #insert
-'''javascript
+```javascript
 db.countryInfo.insert([
     {
         "name": "Israel",
@@ -148,7 +148,7 @@ db.countryInfo.insert([
         "cioc": "GER"
     }
 ])
-'''
+```
 
 db.uniInfo.insert([
     {
