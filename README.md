@@ -73,7 +73,7 @@ db.movies.insert([
 3. get all documents
 ```
 db.movies.find().pretty()
-```'
+```
 
 4. get all documents with writer set to "Quentin Tarantino"
 ```
