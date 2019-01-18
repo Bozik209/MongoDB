@@ -1,4 +1,6 @@
-
+# MongoDB Final task 
+## boaz yakobi
+### 313352437
 1. Connect to a local running mongo instance, use a database named mongo_practice.
 ```
 cmd->mongod 
@@ -154,7 +156,7 @@ db.movies.find({$text: {$search: "gold dragon"}}).pretty()
 ```
 
 17. delete the movie "Pee Wee Herman's Big Adventure"
-''
+```
 db.movies.remove({"title":"Pee Wee Herman's Big Adventure"})
 ```
 
