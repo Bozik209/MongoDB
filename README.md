@@ -1,6 +1,5 @@
 # MongoDB Final task 
 ## boaz yakobi
-### 313352437
 1. Connect to a local running mongo instance, use a database named mongo_practice.
 ```
 cmd->mongod 
